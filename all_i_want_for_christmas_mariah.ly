@@ -1,33 +1,10 @@
-makePercent =
-#(define-music-function (note) (ly:music?)
-   "Make a percent repeat the same length as NOTE."
-   (make-music 'PercentEvent
-               'length (ly:music-length note)))
-
-#(define mydrums '(
-    ( ridecymbal    cross    #f   4)
-    ( crashcymbal   cross    #f   6)
-    ( splashcymbal  harmonic #f   6)
-    ( pedalhihat    cross    #f  -5)
-    ( hihat         cross    #f   5)
-    ( snare         default  #f   1)
-    ( sidestick     xcircle  #f   1)
-    ( lowmidtom     default  #f   0)
-    ( lowtom        default  #f  -1)
-    ( hightom       default  #f   3)
-    ( bassdrum      default  #f  -3)
-    )
-)
-
 \version "2.24.3"
+
+\include "base.ly"
 
 \header {
     title = "All I Want For Christmas"
     composer = "Mariah Carey"
-}
-
-\layout {
-  indent = 0.0
 }
 
 \drums {
@@ -61,9 +38,9 @@ makePercent =
     % Verse
     \mark \markup "16x" \repeat volta 2 {<<hh4 bd>> <<hh4 sn>> <<hh4 bd>> <<hh4 sn>>}
     % Chorus
-    \mark \markup "8x" \repeat volta 2 {\makePercent s1}
+    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1}
     % Intro
-    \mark \markup "3x" \repeat volta 2 {\makePercent s1}
+    \mark \markup "3x" \repeat volta 2 {\singleRepeat s1}
     \tuplet 3/2 { [<<hh8 bd>> r sn] }
     \tuplet 3/2 { [sn    r sn] }
     \tuplet 3/2 { [sn    r sn] }
@@ -72,15 +49,15 @@ makePercent =
     % Verse
     \mark \markup "16x" \repeat volta 2 {<<hh4 bd>> <<hh4 sn>> <<hh4 bd>> <<hh4 sn>>}
     % Chorus
-    \mark \markup "8x" \repeat volta 2 {\makePercent s1}
+    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1}
     % Intro
-    \mark \markup "4x" \repeat volta 2 {\makePercent s1} \break
+    \mark \markup "4x" \repeat volta 2 {\singleRepeat s1} \break
 
     % Bridge
     \mark \markup "16x" \repeat volta 2 {<<cymr4 bd>> <<cymr4 sn>> <<cymr4 bd>> <<cymr4 sn>>} \break
 
     \mark \markup "8x" \repeat volta 2 {<<hh4 bd>> <<hh4 sn>> <<hh4 bd>> <<hh4 sn>>}
-    \mark \markup "7x" \repeat volta 2 {\makePercent s1}
+    \mark \markup "7x" \repeat volta 2 {\singleRepeat s1}
     cymc4 cymc4 r4 r4
     r4 \tuplet 3/2 { r8 r sn } \tuplet 3/2 { [sn sn sn] } \tuplet 3/2 { [sn sn sn] }
     \tuplet 3/2 { [sn r sn] } \tuplet 3/2 { [sn    r sn] } \tuplet 3/2 { [sn    r sn] } \tuplet 3/2 { [sn    r sn] } \break
