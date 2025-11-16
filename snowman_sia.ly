@@ -19,7 +19,7 @@
     % V
     \mark \markup "8x" \repeat volta 2 {<<sn8 bd>> sn16 sn16 sn8 sn8 sn8 sn8 <<sn8 bd>> sn16 sn16 sn8 sn8 sn8 sn8 }
     % Pre-ch
-    \mark \markup "4x" \repeat volta 2 {\singleRepeat s1.} \break
+    \mark \markup "4x" \repeat volta 2 {\repeatMeasure s1.} \break
     % Ch
     \mark \markup "8x" \repeat volta 2 {<<cymr8 bd>> cymr16 cymr16 cymr8 <<cymr sn>> cymr cymr <<cymr8 bd>> cymr16 cymr16 cymr8 <<cymr sn>> cymr cymr }
     <<sn8 bd>> sn16 sn16 sn8 sn8 sn8 sn8 <<sn8 bd>> sn16 sn16 sn8 sn8 sn8 sn8 
@@ -28,7 +28,7 @@
     % V
     \mark \markup "8x" \repeat volta 2 {<<sn8 bd>> sn16 sn16 sn8 sn8 sn8 sn8 <<sn8 bd>> sn16 sn16 sn8 sn8 sn8 sn8 }
     % Pre-ch
-    \mark \markup "4x" \repeat volta 2 {\singleRepeat s1.} \break
+    \mark \markup "4x" \repeat volta 2 {\repeatMeasure s1.} \break
     % Ch
     \mark \markup "8x" \repeat volta 2 {<<cymr8 bd>> cymr16 cymr16 cymr8 <<cymr sn>> cymr cymr <<cymr8 bd>> cymr16 cymr16 cymr8 <<cymr sn>> cymr cymr }
     <<sn8 bd>> sn16 sn16 sn8 sn8 sn8 sn8 <<sn8 bd>> sn16 sn16 sn8 sn8 sn8 sn8 

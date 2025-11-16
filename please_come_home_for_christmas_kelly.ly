@@ -17,7 +17,7 @@
 
     % V1
     \mark \markup "7x" \repeat volta 2 {<<hh8 bd>> hh16 hh16 hh8 <<hh sn>> hh <<hh bd>> <<hh8 bd>> hh16 hh16 hh8 <<hh sn>> hh <<hh bd>>}
-    \singleRepeat r4. \singleRepeat r4. cymr4. sn8 tomh toml \break
+    \repeatMeasure r4. \repeatMeasure r4. cymr4. sn8 tomh toml \break
 
     % V2
     \mark \markup "7x" \repeat volta 2 {<<hh8 bd>> hh16 hh16 hh8 <<hh sn>> hh <<hh bd>> <<hh8 bd>> hh16 hh16 hh8 <<hh sn>> hh <<hh bd>>}
@@ -26,11 +26,11 @@
     % Hits
     sn4. sn8 sn sn sn4. sn8 sn sn sn4. sn8 sn sn sn4. sn8 sn sn
     <<hh8 bd>> hh16 hh16 hh8 <<hh sn>> hh <<hh bd>> <<hh8 bd>> hh16 hh16 hh8 <<hh sn>> hh <<hh bd>>
-    \singleRepeat s1.
+    \repeatMeasure s1.
     \break
     sn4. sn8 sn sn sn4. sn8 sn sn sn4. sn8 sn sn sn4. sn8 sn sn
     <<hh8 bd>> hh16 hh16 hh8 <<hh sn>> hh <<hh bd>> <<hh8 bd>> hh16 hh16 hh8 <<hh sn>> hh <<hh bd>>
-    \singleRepeat r4. \singleRepeat r4. cymr4. sn8 tomh toml \break
+    \repeatMeasure r4. \repeatMeasure r4. cymr4. sn8 tomh toml \break
     \break
 
     % V3

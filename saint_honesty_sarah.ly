@@ -23,7 +23,7 @@
     % V
     \mark \markup "16x" \repeat volta 2 {<<hh8 bd>> hh8 hh8 <<hh sn>> hh hh}
     % Ch
-    \mark \markup "16x" \repeat volta 2 {\singleRepeat s2.} \break
+    \mark \markup "16x" \repeat volta 2 {\repeatMeasure s2.} \break
     
     % Bridge
     \mark \markup "16x" \repeat volta 2 {bd8 cymr r8 bd8 cymr r8}

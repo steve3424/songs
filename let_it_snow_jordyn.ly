@@ -18,8 +18,8 @@
     \mark \markup "8x" \repeat volta 2 {<<hh4 bd>> <<hh8. sn8>> hh16 <<hh4 bd>> <<hh8. sn8>> hh16}
 
     % V1
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1}
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1} \break
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1} \break
 
     % Br.
     <<hh4 bd>> r2 r4

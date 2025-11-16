@@ -28,8 +28,8 @@
     r4. r4. r4. r4.
     <<cymc8 bd>> sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn \break
 
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1.}
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1.} \break
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1.}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1.} \break
 
     % Stops
     cymc4. r4. r4. r4.
@@ -40,9 +40,9 @@
     r4. r4. r4. r4.
     <<cymc8 bd>> sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn sn \break
 
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1.}
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1.}
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1.}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1.}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1.}
 
     \bar "|."
 }

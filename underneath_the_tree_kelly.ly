@@ -20,20 +20,20 @@
     \mark \markup "16x" \repeat volta 2 {<<hh4 bd>> \stemDown \tuplet 3/2 { <<hh8[ sn>> r bd] } \stemUp hh4 \stemDown \tuplet 3/2 { <<hh8[ sn>> r bd] } \stemUp} \break
 
     % V1
-    \mark \markup "16x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "16x" \repeat volta 2 {\repeatMeasure s1}
     % Pre-ch
-    \mark \markup "5x" \repeat volta 2 {\singleRepeat s1} \tuplet 3/2 { sn8[ r sn] } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] } \break
+    \mark \markup "5x" \repeat volta 2 {\repeatMeasure s1} \tuplet 3/2 { sn8[ r sn] } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] } \break
 
     % Ch
-    \mark \markup "16x" \repeat volta 2 {\singleRepeat s1} \break
+    \mark \markup "16x" \repeat volta 2 {\repeatMeasure s1} \break
 
     % V1
-    \mark \markup "16x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "16x" \repeat volta 2 {\repeatMeasure s1}
     % Pre-ch
-    \mark \markup "5x" \repeat volta 2 {\singleRepeat s1} \tuplet 3/2 { sn8[ r sn] } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] } \break
+    \mark \markup "5x" \repeat volta 2 {\repeatMeasure s1} \tuplet 3/2 { sn8[ r sn] } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] } \break
     
     % Ch
-    \mark \markup "16x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "16x" \repeat volta 2 {\repeatMeasure s1}
     % Bridge
     \mark \markup "16x" \repeat volta 2 {<<cymr4 bd>> \stemDown \tuplet 3/2 { <<cymr8[ sn>> r bd] } \stemUp cymr4 \stemDown \tuplet 3/2 { <<cymr8[ sn>> r bd] } \stemUp} \break
 

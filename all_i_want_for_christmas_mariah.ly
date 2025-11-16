@@ -38,9 +38,9 @@
     % Verse
     \mark \markup "16x" \repeat volta 2 {<<hh4 bd>> <<hh4 sn>> <<hh4 bd>> <<hh4 sn>>}
     % Chorus
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1}
     % Intro
-    \mark \markup "3x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "3x" \repeat volta 2 {\repeatMeasure s1}
     \tuplet 3/2 { <<hh8[ bd>> r sn] }
     \tuplet 3/2 { sn[    r sn] }
     \tuplet 3/2 { sn[    r sn] }
@@ -49,15 +49,15 @@
     % Verse
     \mark \markup "16x" \repeat volta 2 {<<hh4 bd>> <<hh4 sn>> <<hh4 bd>> <<hh4 sn>>}
     % Chorus
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1}
     % Intro
-    \mark \markup "4x" \repeat volta 2 {\singleRepeat s1} \break
+    \mark \markup "4x" \repeat volta 2 {\repeatMeasure s1} \break
 
     % Bridge
     \mark \markup "16x" \repeat volta 2 {<<cymr4 bd>> <<cymr4 sn>> <<cymr4 bd>> <<cymr4 sn>>} \break
 
     \mark \markup "8x" \repeat volta 2 {<<hh4 bd>> <<hh4 sn>> <<hh4 bd>> <<hh4 sn>>}
-    \mark \markup "7x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "7x" \repeat volta 2 {\repeatMeasure s1}
     cymc4 cymc4 r4 r4
     r4 \tuplet 3/2 { r8 r sn } \tuplet 3/2 { sn[ sn sn] } \tuplet 3/2 { sn[ sn sn] }
     \tuplet 3/2 { sn[ r sn] } \tuplet 3/2 { sn[    r sn] } \tuplet 3/2 { sn[    r sn] } \tuplet 3/2 { sn[    r sn] } \break

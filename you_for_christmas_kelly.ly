@@ -25,12 +25,12 @@
     % Verse
     \mark \markup "16x" \repeat volta 2 {<<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8}
     % Chorus
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1} \break
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1} \break
 
     % Verse
     \mark \markup "16x" \repeat volta 2 {<<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8}
     % Chorus
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1} \break
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1} \break
 
     % Bridge
     \mark \markup "8x" \repeat volta 2 {<<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8 <<hh8^\accent sn bd>> hh8}

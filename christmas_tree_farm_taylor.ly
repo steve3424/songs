@@ -20,8 +20,8 @@
     % Verse
     \mark \markup "2x" \repeat volta 2 {
         <<hh4. bd>> <<hh8[ sn>> r8 bd8] hh4. <<hh4. sn>>
-        \singleRepeat s1.
-        \singleRepeat s1.
+        \repeatMeasure s1.
+        \repeatMeasure s1.
         <<hh4.^\accent bd>> <<hh^\accent sn>> <<hh4.^\accent bd>> <<hh^\accent sn>>
     } \break
 
@@ -29,12 +29,12 @@
     \mark \markup "5x" \repeat volta 2 {<<hh4. bd>> <<hh sn>> <<hh4. bd>> <<hh sn>>} sn8 sn sn sn8 sn sn sn8 sn sn sn8 sn sn \break
 
     % Ch
-    \mark \markup "6x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1.}
     <<cymc4. bd>> <<hh sn>> <<hh bd>> <<hh sn>>
-    \mark \markup "fill" \singleRepeat r1. \break
-    \mark \markup "6x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "fill" \repeatMeasure r1. \break
+    \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1.}
     <<cymc4. bd>> <<hh sn>> <<hh bd>> <<hh sn>>
-    \mark \markup "fill" \singleRepeat r1.
+    \mark \markup "fill" \repeatMeasure r1.
 
     % Intro
     \mark \markup "2x" \repeat volta 2 {<<hh4. bd>> <<hh sn>> <<hh4. bd>> <<hh sn>>} \break
@@ -51,16 +51,16 @@
     sn8 sn sn sn8 sn sn sn8 sn sn sn8 sn sn \break
 
     % Ch
-    \mark \markup "6x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1.}
     <<cymc4. bd>> <<hh sn>> <<hh bd>> <<hh sn>>
-    \mark \markup "fill" \singleRepeat r1. \break
+    \mark \markup "fill" \repeatMeasure r1. \break
 
     % Ch
-    \mark \markup "6x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1.}
     <<cymc4. bd>> <<hh sn>> <<hh bd>> <<hh sn>>
-    \mark \markup "fill" \singleRepeat r1.
+    \mark \markup "fill" \repeatMeasure r1.
 
-    \mark \markup "groove" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "groove" \repeat volta 2 {\repeatMeasure s1.}
 
     \bar "|."
 }

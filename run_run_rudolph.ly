@@ -24,9 +24,9 @@
     \mark \markup "8x" \repeat volta 2 { <<hh8 bd>> hh8 <<hh8 sn>> hh8 <<hh8 bd>> hh8 <<hh8 sn>> hh8} \break
 
     % B
-    \mark \markup "12x" \repeat volta 2 {\singleRepeat s1}
-    \mark \markup "12x" \repeat volta 2 {\singleRepeat s1}
-    \mark \markup "12x" \repeat volta 2 {\singleRepeat s1} \break
+    \mark \markup "12x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "12x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "12x" \repeat volta 2 {\repeatMeasure s1} \break
 
     % Intro
     <<hh4 bd sn>> r4 r2
@@ -38,9 +38,9 @@
     \mark \markup "8x" \repeat volta 2 { <<cymr8 bd>> cymr8 <<cymr8 sn>> cymr8 <<cymr8 bd>> cymr8 <<cymr8 sn>> cymr8 } \break
 
     \mark \markup "12x" \repeat volta 2 { <<hh8 bd>> hh8 <<hh8 sn>> hh8 <<hh8 bd>> hh8 <<hh8 sn>> hh8}
-    \mark \markup "12x" \repeat volta 2 {\singleRepeat s1}
-    \mark \markup "12x" \repeat volta 2 {\singleRepeat s1}
-    \mark \markup "12x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "12x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "12x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "12x" \repeat volta 2 {\repeatMeasure s1}
 
     \bar "|."
 }

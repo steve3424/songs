@@ -41,12 +41,12 @@
     % Verse
     \time 12/8
     \mark \markup "4x" \repeat volta 2 {
-        \singleRepeat s1.
+        \repeatMeasure s1.
     }
     
     % Ch
     \mark \markup "4x" \repeat volta 2 {
-        \singleRepeat s1.
+        \repeatMeasure s1.
     } \break
 
     % Tension
@@ -70,7 +70,7 @@
     sn16 bd bd sn bd bd sn16 bd bd sn bd bd sn8 sn
 
     \mark \markup "3x" \repeat volta 2 {
-        \singleRepeat s1
+        \repeatMeasure s1
     }
     sn16 bd bd sn bd bd sn16 bd bd sn bd bd sn8 sn \break
 
@@ -97,7 +97,7 @@
     } 
 
     \mark \markup "2x" \repeat volta 2 {
-        \singleRepeat s1.
+        \repeatMeasure s1.
     }
 
     <<hh8\open bd>> hh8\open hh8\open <<hh8\open sn>> hh8\open hh8\open <<cymc4. bd>> r4.

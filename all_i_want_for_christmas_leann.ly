@@ -22,9 +22,9 @@
     } \break
 
     % A
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1}
     % A
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1} \break
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1} \break
 
     % B
     \mark \markup "8x" \repeat volta 2 {
@@ -35,9 +35,9 @@
     } \break
 
     % A
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1}
     % A
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1} \break
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1} \break
 
     % B
     \mark \markup "8x" \repeat volta 2 {
@@ -48,8 +48,8 @@
     } \break
 
     % A
-    \mark \markup "8x" \repeat volta 2 {\singleRepeat s1}
-    \mark \markup "2x" \repeat volta 2 {\singleRepeat s1}
+    \mark \markup "8x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "2x" \repeat volta 2 {\repeatMeasure s1}
     cymc2\fermata cymc2\fermata \break
 
     \mark \markup "slow down"

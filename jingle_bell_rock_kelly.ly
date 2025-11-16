@@ -22,28 +22,28 @@
     \break
 
     \mark \markup "8x" \repeat volta 2 {<<hh4. bd>> <<hh8[ sn>> r sn] <<hh4. bd>> <<hh4. sn>>}
-    \mark \markup "7x" \repeat volta 2 {\singleRepeat s1.}
-    \mark \markup "fill" \singleRepeat s1.
+    \mark \markup "7x" \repeat volta 2 {\repeatMeasure s1.}
+    \mark \markup "fill" \repeatMeasure s1.
     \break
 
-    \mark \markup "6x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1.}
     sn4. r4. r4. r4.
     r8 r8 sn <<cymr8[ bd>> r sn] <<cymr8[ bd>> r sn] <<cymr8[ bd>> r sn]
     \break
 
     \mark \markup "8x" \repeat volta 2 {<<hh4. bd>> <<hh8[ sn>> r sn] <<hh4. bd>> <<hh4. sn>>}
-    \mark \markup "6x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1.}
     sn4. r4. r4. r4.
-    \mark \markup "fill" \singleRepeat s1.
+    \mark \markup "fill" \repeatMeasure s1.
     \break
 
-    \mark \markup "6x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1.}
     sn4. r4. r4. r4.
-    \mark \markup "fill" \singleRepeat s1.
+    \mark \markup "fill" \repeatMeasure s1.
     \break
 
-    \mark \markup "6x" \repeat volta 2 {\singleRepeat s1.}
-    \mark \markup "3x" \repeat volta 2 {\singleRepeat s1.}
+    \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1.}
+    \mark \markup "3x" \repeat volta 2 {\repeatMeasure s1.}
     sn4. r4. r4. r4.
 
     \bar "|."
