@@ -29,11 +29,11 @@
     <<hh4 bd>> r2 r4
     r1
     \tuplet 3/2 { <<hh4 sn>> <<hh4 sn>> <<hh4 sn>> } \tuplet 3/2 { <<hh4 sn>> <<hh4 sn>> <<hh4 sn>> }
-    \tuplet 3/2 { [sn8 r sn] }
-    \tuplet 3/2 { [sn8 r sn] }
+    \tuplet 3/2 { sn8[ r sn] }
+    \tuplet 3/2 { sn8[ r sn] }
     sn4 r4
-    \tuplet 3/2 { [sn8 r sn] }
-    \tuplet 3/2 { [sn8 r sn] }
+    \tuplet 3/2 { sn8[ r sn] }
+    \tuplet 3/2 { sn8[ r sn] }
     sn4 r4
     \break
 
