@@ -3,7 +3,7 @@
 \include "base.ly"
 
 \header {
-    title = "Gimme Some Sushine"
+    title = "Give Me Some Sushine"
     composer = "3 Idiots"
 }
 
