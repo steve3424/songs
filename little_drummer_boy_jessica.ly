@@ -13,7 +13,7 @@
     \numericTimeSignature
 
     \time 4/4
-    r1 r1 r1 r2 cymc2:32^~
+    r1 r1 r1 r2 r4 cymc4:32^~
     \break
     \time 4/4 cymc1 r1 \time 2/4 r2 \time 4/4 r1 r1
     \break
@@ -35,21 +35,24 @@
     \break
     sn4 r4 r2 | r1 | r2 r4 r8 sn16 sn
     \break
-    sn4 r4 r2 | r1 r1 r1
+    sn4 r4 r2 | r4 r4 r4 r8 sn16 sn | sn4 r4 r2 | r4 r4 r4 r8 sn8
+    \break
+    sn4 r4 r2 | r4 r4 r4 r8 sn8 | sn4 r4 r4 r8 sn16 sn | sn4 r4 r4 r8 sn16 sn | sn4 r4 r2 | r4 r4 r8. sn16 r16 sn16 r16 sn16
+    \break
+    sn4 r4 r2 | r4 r4 r4 r8 sn16 sn | sn4 r4 r2 | r2 r4 r8 sn8:32
     \break
 
-    r1 r1 r1 r1 r1 r1
-    \break
-    r1 r1 r1 r1
+    \mark \markup "snare 10x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "6x" \repeat volta 2 {r1}
+    r4 r4 r4 r8 sn16 sn
     \break
 
-    \mark \markup "10x" \repeat volta 2 {\repeatMeasure s1}
-    \mark \markup "7x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "9x" \repeat volta 2 {r1}
+    r2 r4 r8 sn8:32
+    \mark \markup "3x" \repeat volta 2 {r1}
+    \stemDown bd4 bd bd bd
     \break
-    \mark \markup "10x" \repeat volta 2 {\repeatMeasure s1}
-    \mark \markup "4x" \repeat volta 2 {\repeatMeasure s1}
-    \break
-    \mark \markup "4x" \repeat volta 2 {\repeatMeasure s1}
+    \mark \markup "snare 8x" \repeat volta 2 {\repeatMeasure s1}
     \break
 
     \bar "|."
