@@ -12,6 +12,7 @@
     \numericTimeSignature
 
     \time 4/4
+    \tempo 4 = 95
 
     % Intro
     <<hh16^"R" bd^\accent>> hh hh hh^\accent^"L"
