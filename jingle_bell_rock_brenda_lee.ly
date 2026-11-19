@@ -34,7 +34,7 @@
     \mark \markup "6x" \repeat volta 2 {\repeatMeasure s1}
     \mark \markup "that's 3x" \repeat volta 2 {\repeatMeasure s1}
     \mark \markup "2x" \repeat volta 2 {\repeatMeasure s1}
-    \mark \markup \repeat volta 2 {r1}
+    r1
     r4 <<cymc4 bd>> r4 r4
 
     \bar "|."
